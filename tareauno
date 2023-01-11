@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        int a = 0,b = 0,c = 0;
+        int resultado=0;
+        Scanner objeto = new Scanner (System.in);
+        System.out.println("Hola programador, vamos a sumar tres numeros");
+        System.out.println("Ingrese el primer numero");
+        a= objeto.nextInt();
+        System.out.println("Ingrese el segundo numero");
+        b= objeto.nextInt();
+        System.out.println("Ingrese el tercer numero");
+        c= objeto.nextInt();
+
+        resultado=a+b+c;
+        System.out.println("El resultado de la suma es: "+resultado);
+    }
+
+}
